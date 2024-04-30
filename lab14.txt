@@ -1,0 +1,45 @@
+An area that the distinction between Express and Vue relies on is their respective characteristics and scope in the web applications. Express is a lightweight and agile JavaScript framework, which provides a comprehensive set of capabilities for Web-development and API-building. By and large, Vue is a detail-oriented JavaScript framework used to create user interfaces (UIs) and as Single Page Applications (SPA).
+
+In the context of the Would You Rather app, we can break down the responsibilities into different parts:In the context of the Would You Rather app, we can break down the responsibilities into different parts:
+
+
+Server-side (Express):
+
+
+This function entails, interpreting as well as processing HTTP request and generating the corresponding HTTP response.
+
+Routing and URL management
+
+Interacting with a relational databases or some free API for the process of data persistence and their storage
+
+Despite the consequences of server-side reasoning and business logic.
+
+Alternatively, the AJAX requesting can be done on the initial server-side HTML (if it is applicable though).
+
+Providing such things as the CSS and JavaScript files (static assets).
+
+
+
+Client-side (Vue):
+
+
+Building and managing user interface is the process of creating, and administering a platform, which allows people to perform an activity.
+
+Managing the users’ reactions including the click events
+
+Realization of changing data and update of UI in case of the need happens dynamically.
+
+Calling HTTP request to the server to get data (via APIs), and saving it.
+
+Introducing routing on the client side and handling the state is the key to this process.
+
+Intended to be immersive, engaging and responsive to the user.
+
+
+
+
+When it comes to the "Would You Rather" app, Express is tasked with implementing all server-side logic for the app; doing things like user authentication, questions and responses management and exposing APIs to access them, so that the Client can interact with the data. Regarding Vue it would be responsible for representation, questions displaying, input handling, and connecting with the Express backend via APIs to communicate in order to fetch and update data.
+
+The principal of separation of state mechanics between Express and Vue enables identifying and making the assortment of them. While Express server-side functions, Vue deals with the client-side UI side as well as the user interactions. This division helps to achieve the modularity, which facilitates parallel and independent development, testing, and deployment of components.
+
+Furthermore, the Vue library on client side allows developing reactive and interactive UI which will be a great boon in the creation of a goal-oriented but also user-friendly application. With the reactivity of Vue's data binding, and its virtual DOM, updates happen dynamically while the transition is smooth, creating this needed lived experience that charms the user.
